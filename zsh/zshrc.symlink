@@ -7,7 +7,7 @@ export LC_CTYPE="no_NO.UTF-8"
 export ZSHDOT=$HOME/.dotfiles
 
 # your project folder that we can `c [tab]` to
-export PROJECTS=~/development
+export PROJECTS=~/Code
 
 # Stash your environment variables in ~/.localrc. This means they'll stay out
 # of your main dotfiles repository (which may be public, like this one), but

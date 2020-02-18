@@ -27,5 +27,15 @@ else
 fi
 
 
+if [[ -d ~/.zsh/pure ]]; then
+    printf "Update zsh-autosuggestions \n"
+    cd ~/.zsh/zsh-autosuggestions
+    git pull
+
+else
+    printf "Installing zsh-autosuggestions \n"
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+fi
 
 
+npm install --global pure-prompt

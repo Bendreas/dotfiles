@@ -1,1 +1,1 @@
-export KUBECONFIG=~/development/kubeconfigs/config
+export KUBECONFIG=~/kubeconfigs/config

@@ -24,4 +24,4 @@ alias gac='git add -A && git commit -m'
 alias ge='git-edit-new'
 alias gh='open `git config remote.origin.url`'
 
-
+ 

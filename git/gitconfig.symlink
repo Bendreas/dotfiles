@@ -21,7 +21,7 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = nano
+        editor = vim
         autocrlf = input
 [apply]
         whitespace = nowarn
@@ -37,7 +37,7 @@
 [push]
 	    default = current
 [commit]
-	    gpgsign = true
+
 
 [http "https://stash.adeo.no"]
         proxy = socks5://localhost:14122
