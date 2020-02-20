@@ -7,3 +7,4 @@ zstyle ':completion:*' insert-tab pending
 # partial completion suggestions
 zstyle ':completion:*' list-suffixes
 zstyle ':completion:*' expand prefix suffix
+zstyle ':completion:*' matcher-list 'r:|=*' 'l:|=* r:|=*'
