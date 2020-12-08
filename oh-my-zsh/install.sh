@@ -27,15 +27,15 @@ else
 fi
 
 
-if [[ -d ~/.zsh/pure ]]; then
-    printf "Update zsh-autosuggestions \n"
-    cd ~/.zsh/zsh-autosuggestions
+if [[ -d ~/.zsh/zsh-nvm ]]; then
+    printf "Update zsh-nvm \n"
+    cd ~/.zsh/zsh-nvm
     git pull
 
 else
-    printf "Installing zsh-autosuggestions \n"
-    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+    printf "Installing zsh-nvm \n"
+    git clone https://github.com/lukechilds/zsh-nvm.git ~/.zsh/zsh-nvm
 fi
 
-
-npm install --global pure-prompt
+# powerlevel10k
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
