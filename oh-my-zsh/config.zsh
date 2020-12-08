@@ -16,5 +16,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=100'
 
 #zsh-nvm
+export NVM_LAZY_LOAD=true
+export NVM_COMPLETION=true
 source ~/.zsh/zsh-nvm/zsh-nvm.plugin.zsh
 
