@@ -20,6 +20,7 @@ brew 'wget'
 
 # Version control
 brew 'git'
+brew 'gh'
 
 # Circle ci
 brew 'circleci'
